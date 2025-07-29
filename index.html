@@ -7,45 +7,55 @@
     <title>Oceania Restauri s.r.l.</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #003366;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #001F3F, #003366);
             margin: 0;
             padding: 0;
-            color: #ffffff;
+            color: #333;
+        }
+        .header {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .header img {
+            width: 180px;
+            margin: 10px 0;
+        }
+        .header h1 {
+            color: #003366;
+            margin-top: 10px;
         }
         .container {
             max-width: 800px;
-            margin: auto;
+            margin: 30px auto;
             padding: 20px;
-            text-align: center;
-        }
-        .logo img {
-            width: 200px;
-            margin: 30px 0;
         }
         .section {
-            background-color: rgba(255, 255, 255, 0.1);
+            background-color: #ffffff;
             padding: 20px;
-            margin-top: 20px;
+            margin-bottom: 20px;
             border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
         a {
-            color: #aaddff;
+            color: #003366;
             text-decoration: none;
             font-weight: bold;
         }
-        h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
+        .social a {
+            display: inline-block;
+            margin: 5px 10px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="Logo__1_-1-removebg-preview.png" alt="Logo Oceania Restauri">
-        </div>
+    <div class="header">
+        <img src="Logo__1_-1-removebg-preview.png" alt="Logo Oceania Restauri">
         <h1>Oceania Restauri s.r.l.</h1>
+    </div>
+    <div class="container">
         <div class="section">
             <p><strong>Indirizzo:</strong> Via XXV Aprile n°62, Partinico (PA) 90047</p>
             <p><strong>Cellulare:</strong> 3396062608</p>
@@ -60,15 +70,17 @@
         </div>
         <div class="section">
             <p><strong>Certificazioni:</strong></p>
-            <p>ISO 9001:2015</p>
-            <p>ISO 14001:2015</p>
-            <p>Attestazione SOA n° 101752/7/00</p>
-            <p>OG1 V, OG11 II, OG2 IV, OG3 III-BIS, OG6 I, OS6 I</p>
+            <ul>
+                <li>ISO 9001:2015</li>
+                <li>ISO 14001:2015</li>
+                <li>Attestazione SOA n° 101752/7/00</li>
+                <li>Categorie: OG1 V, OG11 II, OG2 IV, OG3 III-BIS, OG6 I, OS6 I</li>
+            </ul>
         </div>
-        <div class="section">
-            <p><strong>Social:</strong></p>
-            <p><a href="https://www.facebook.com/p/Oceania-Restauri-srl-100057210680032/?locale=it_IT" target="_blank">Facebook</a></p>
-            <p><a href="https://www.instagram.com/terranova_tony__/" target="_blank">Instagram</a></p>
+        <div class="section social">
+            <p><strong>Seguici sui social:</strong></p>
+            <p><a href="https://www.facebook.com/p/Oceania-Restauri-srl-100057210680032/?locale=it_IT" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com/terranova_tony__/" target="_blank">Instagram</a></p>
         </div>
     </div>
 </body>
